@@ -31,6 +31,10 @@ Light fence circuit is used to detect the presence of any human or object in a p
 |11. Breadboard|
 
 
+## **Circuit Diagram**
+
+
+
 ## **Working**
 The op-amp IC is used as a voltage comparator and the 555 timer IC is placed in an astable mode. The LDR and the potentiometer are creating a voltage divider circuit. The output of this divider circuit will change according to the intensity of light falls on the LDR. The divider is connected to the inverting pin of the Op-amp IC. The non-inverting pin is connected with supply through a 5.7Kohm resistor, so the voltage value at the non-inverting is fix. You can replace this resistor with a 10K potentiometer to adjust the voltage as per the requirement. We can adjust the sensitivity of the device by using the potentiometer VR1 connected in series with the LDR. When the voltage at non-inverting input is greater than or equal to the reference voltage the output (at pin 6) of the op-amp IC output (PIN 6) goes HIGH. Learn more about working of op-amp by following the various op-amp based circuits.
 
